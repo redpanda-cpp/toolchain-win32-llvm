@@ -2,18 +2,18 @@
 
 set -euxo pipefail
 
-export LLVM_MINGW_TAG="20231128"
-export REDPANDA_RELEASE="17-r0"
+export LLVM_MINGW_TAG="20240320"
+export REDPANDA_RELEASE="18-r0"
 
 export FMT_VERSION="10.2.1"
 export SQLITE_RELEASE_YEAR="2024"
-export SQLITE_VERSIONID="3450000"
-export MARIADBC_VERSION="3.3.8"
+export SQLITE_VERSIONID="3450200"
+export MARIADBC_VERSION="3.3.9"
 export TINYFILEDIALOGS_COMMIT="865c1c84bc824aa8fa5fd46f3a51a8c56fe237b4"
 
-export GLM_VERSION="0.9.9.8"
+export GLM_VERSION="1.0.1"
 export FREEGLUT_VERSION="3.4.0"
-export GLFW_VERSION="3.3.9"
+export GLFW_VERSION="3.4"
 export GLEW_VERSION="2.2.0"
 export RAYLIB_VERSION="4.5.0"
 export RAYGUI_VERSION="3.6"
@@ -78,8 +78,8 @@ export _TINYFILEDIALOGS_REPO="tinyfiledialogs.git"
 _TINYFILEDIALOGS_URL="https://git.code.sf.net/p/tinyfiledialogs/code"
 
 export _GLM_DIR="glm"
-export _GLM_ARCHIVE="glm-$GLM_VERSION.7z"
-_GLM_URL="https://github.com/g-truc/glm/releases/download/$GLM_VERSION/$_GLM_ARCHIVE"
+export _GLM_ARCHIVE="glm-$GLM_VERSION-light.7z"
+_GLM_URL="https://github.com/g-truc/glm/releases/download/$GLM_VERSION/glm-$GLM_VERSION-light.7z"
 
 export _FREEGLUT_DIR="freeglut-$FREEGLUT_VERSION"
 export _FREEGLUT_ARCHIVE="$_FREEGLUT_DIR.tar.gz"

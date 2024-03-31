@@ -6,7 +6,7 @@ Based on [LLVM MinGW](https://github.com/mstorsjo/llvm-mingw), with useful libs 
 
 FOR PACKAGERS, NOT FOR END USERS.
 
-This toolchain heavily depends on [compiler hint add-on interface](https://github.com/royqh1979/RedPanda-CPP/blob/master/docs/addon.md). See the implementation ([source](https://github.com/royqh1979/RedPanda-CPP/blob/master/addon/compiler_hint/windows_domain.tl) or [compiled](https://github.com/royqh1979/RedPanda-CPP/blob/master/packages/msys/domain/compiler_hint.lua)) of Windows domain package for example.
+This toolchain heavily depends on [compiler hint add-on interface](https://github.com/royqh1979/RedPanda-CPP/blob/master/docs/addon.md). See the implementation ([source](https://github.com/royqh1979/RedPanda-CPP/blob/master/addon/compiler_hint/windows_llvm.tl) or [compiled](https://github.com/royqh1979/RedPanda-CPP/blob/master/packages/msys/compiler_hint.lua)) of Windows LLVM package for example.
 
 ## Build
 
